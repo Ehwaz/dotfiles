@@ -16,7 +16,9 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 01. General                                                                "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set nocompatible         " get rid of Vi compatibility mode. SET FIRST!
+set nocompatible            " get rid of Vi compatibility mode. SET FIRST!
+set enc=utf-8               " encoding to be used in vim.
+scriptencoding utf-8        " encoding used in the script.
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 02. Events                                                                 "
