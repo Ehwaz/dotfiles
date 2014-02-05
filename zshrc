@@ -1,3 +1,11 @@
+##############################################################################
+#   Filename: .zshrc                                                        #
+#       User: Ehwaz <chrisma516@gmail.com>                                   #
+#             Based on Michael J. Smalley's project.                         #
+#             (http://github.com/michaeljsmalley/dotfiles)                   #
+#                                                                            #
+##############################################################################
+
 # Explicitly configured $PATH variable
 PATH=/usr/local/git/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/local/bin:/opt/local/sbin:/usr/X11/bin
 

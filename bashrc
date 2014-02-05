@@ -1,7 +1,8 @@
 ##############################################################################
 #   Filename: .bashrc                                                        #
-# Maintainer: Michael J. Smalley <michaeljsmalley@gmail.com>                 #
-#        URL: http://github.com/michaeljsmalley/dotfiles                     #
+#       User: Ehwaz <chrisma516@gmail.com>                                   #
+#             Based on Michael J. Smalley's project.                         #
+#             (http://github.com/michaeljsmalley/dotfiles)                   #
 #                                                                            #
 #                                                                            #
 # Sections:                                                                  #
