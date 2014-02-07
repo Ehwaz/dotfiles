@@ -60,6 +60,7 @@ alias gk='gitk --all&'
 alias gx='gitx --all'
 alias got='git '
 alias get='git '
+alias tmux='tmux -2'
 
 # qfind - used to quickly find files that contain a string in a directory
 qfind () {
