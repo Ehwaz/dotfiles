@@ -73,3 +73,5 @@ qfind () {
 if [ -f /usr/bin/vim ]; then
     export EDITOR=/usr/bin/vim
 fi
+
+unsetopt SHARE_HISTORY
