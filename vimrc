@@ -19,6 +19,17 @@
 set nocompatible            " get rid of Vi compatibility mode. SET FIRST!
 set enc=utf-8               " encoding to be used in vim.
 scriptencoding utf-8        " encoding used in the script.
+set history=111             "command-line history restored
+set viminfo=%,\"4,'4,/111,:111,h,f0,<1000,s1000
+"           |  |  |  |    |    | |  |     +bump the default limit of 10kb to e.g. 1000kb
+"           |  |  |  |    |    | |  +registers store up to 1000 lines each
+"           |  |  |  |    |    | +file marks 0-9,A-Z 0=NOT stored
+"           |  |  |  |    |    +disable 'hlsearch' loading viminfo
+"           |  |  |  |    +command-line history saved
+"           |  |  |  +search history saved
+"           |  |  +files marks saved
+"           |  +lines saved each register (old name for <, vi6.2)
+"           +save/restore buffer list
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 02. Events                                                                 "
