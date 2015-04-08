@@ -84,8 +84,11 @@ set shiftwidth=4          " indent/outdent by 4 columns
 set shiftround            " always indent/outdent to the nearest tabstop
 set expandtab             " use spaces instead of tabs
 set smarttab              " use tabs at the start of a line, spaces elsewhere
-set nowrap                " don't wrap text
+"set nowrap                " don't wrap text
 set paste                 " don't add tabs in GUI-pasted codes.
+set wrap                  " word wrap visually (as opposed to changing the text in the buffer) 
+set linebreak             " only wrap at a character in the breakat option (by default, this includes" ^I!@*-+;:,./?" 
+set nolist                " list disables linebreak 
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
