@@ -62,6 +62,12 @@ fi
 # alias get='git '
 alias tmux='tmux -2'
 
+# Alias to use 'thefuck'
+# https://github.com/nvbn/thefuck
+alias fuck='eval $(thefuck $(fc -ln -1))'
+# You can use whatever you want as an alias, like for Mondays:
+# alias FUCK='fuck'
+
 # qfind - used to quickly find files that contain a string in a directory
 qfind () {
     find . -exec grep -l -s $1 {} \;
