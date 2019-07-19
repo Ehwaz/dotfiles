@@ -81,3 +81,7 @@ if [ -f /usr/bin/vim ]; then
 fi
 
 unsetopt SHARE_HISTORY
+
+# jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
